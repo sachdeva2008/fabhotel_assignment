@@ -1,0 +1,1 @@
+export const API_END_POINT = (subreddit) => `https://www.reddit.com/r/${subreddit}.json`

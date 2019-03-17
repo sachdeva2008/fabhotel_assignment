@@ -1,0 +1,36 @@
+$font-size: 25px;
+
+
+@mixin boxShadow() {
+    border: 0;
+    box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
+    height: 100%;
+}
+
+.column{
+    padding: .4rem;
+.card{
+    @include boxShadow();
+    margin-bottom: 20px;
+    .card-image{
+        margin: 0 auto;
+        .image-wrapper{
+            min-height: 30vh;
+            align-items: center;
+            display: flex;
+        }
+    }
+  }
+}
+
+.dropdown{
+    a{
+        min-width: 180px;
+    }
+}
+.navbar-section{
+
+    a.btn-link{
+       font-size: $font-size;
+    }
+}
