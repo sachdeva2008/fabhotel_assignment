@@ -34,3 +34,14 @@ $font-size: 25px;
        font-size: $font-size;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .navbar-section{
+        flex:0;
+    .dropdown{
+        .btn.btn-primary{
+            width: 96vw;
+        }
+    }
+   }
+}
