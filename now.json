@@ -1,1 +1,7 @@
-{}
+{
+ "name": "Fab Hotel Assignment",
+  "version": 2,
+  "alias": [
+            "fab.hotel.assignment"
+            ]
+}
