@@ -15,7 +15,7 @@ const Posts = ({posts}) => {
                 img={url}
                 comments={comments}
                 ups={ups}
-                altImg = {media && media.hasOwnProperty('oembed')?getLargeVersionedImage(media.oembed.thumbnail_url):url}
+                altImg = {media && media.hasOwnProperty('oembed')?media.oembed.thumbnail_url:url}
                 />
               </div>
             </div>
